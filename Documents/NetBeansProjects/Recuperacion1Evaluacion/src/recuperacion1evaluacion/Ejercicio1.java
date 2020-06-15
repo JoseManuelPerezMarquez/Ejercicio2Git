@@ -24,7 +24,7 @@ public class Ejercicio1 {
         System.out.println("Escriba el tamaño de las letras (Valores admitidos:8,10):");
             tamaño = s.nextInt();
         while (tamaño != 8&&tamaño!=10) {
-            System.out.println("Escriba el tamaño de las letras (Valores admitidos:8,10):");
+            System.out.println("Escriba el tamaño de las letras (Valores admitidos:8,10): ");
             tamaño = s.nextInt();
         }
         System.out.println("Escriba la cantidad de letras a imprimir(Valores admitidos:2,3,4):");
